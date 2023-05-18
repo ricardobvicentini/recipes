@@ -23,6 +23,7 @@
         font-family: 'Dosis', sans-serif;
     }
 
+
     body {
         background-color: white;
     }
@@ -41,8 +42,8 @@
         z-index: 100;
         }
 
-    .logo {
-        font-size: 3em;
+    header > h1    {
+        font-size: 2.5em;
         font-weight: 900;
         color: black;
         text-shadow: var(--text-shadow);
@@ -66,22 +67,4 @@
     .nav-bar>a:hover {
         scale: 1.1;
         color: white;
-    }
-
-    .hero {
-        position: relative;
-        text-align: center;
-        padding: 20px 0;
-    }
-
-    .hero > h2 {
-        font-size: 3em;
-        color: black;
-        padding-top: 10px;
-        text-shadow: var(--text-shadow);
-    }
-
-    .hero > p {
-        font-size: 2em;
-        padding-top: 10px;
     }
