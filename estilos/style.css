@@ -24,7 +24,7 @@
     }
 
     body {
-        background-color: white;
+        background-color: #efefef;
     }
 
     header {
@@ -37,6 +37,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
         box-shadow: var(--text-shadow);
         z-index: 100;
         }
@@ -45,7 +46,12 @@
         font-size: 3em;
         font-weight: 900;
         color: black;
+        text-decoration: underline;
         text-shadow: var(--text-shadow);
+    }
+
+    .logo-color {
+        color: #ec4b3d;
     }
 
     .nav-bar {
@@ -65,7 +71,7 @@
 
     .nav-bar>a:hover {
         scale: 1.1;
-        color: white;
+        color: #efefef;
     }
 
     .hero {
@@ -84,4 +90,19 @@
     .hero > p {
         font-size: 2em;
         padding-top: 10px;
+    }
+
+    .art-title {
+        background-image: linear-gradient(to top, #efefef 0%, #f5efef 5%, #feada6 50%, #f5efef 95%, #efefef 100%);
+        padding: 20px;
+    
+    }
+
+    .art-title > h3 {
+        position: relative;
+        left: 10%;
+        width: fit-content;
+        color: black;
+        font-size: 2em;
+        font-weight: 600;
     }
