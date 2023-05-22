@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+:root {
+    --main-bg-color: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+    --burger-bg-color: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+    --toast-bg-color: background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    --pancake-bg-color: background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    --box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07);
+    --text-shadow: 0px 1px 2px #13121260;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+body {
+    background-color: #efefef;
+}
+
+header {
+    background-image: var(--burger-bg-color);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: var(--text-shadow);
+    z-index: 100;
+}
+
+.logo {
+    font-size: 3em;
+    font-weight: 900;
+    color: #ec4b3d;
+    text-decoration: underline;
+    text-shadow: var(--text-shadow);
+}
+    
+.nav-bar {
+    display: flex;
+    position: relative;
+}
+
+.nav-bar > a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-shadow: var(--text-shadow);
+    margin-left: 25px;
+    transition: .2s;
+}
+
+.nav-bar>a:hover {
+    scale: 1.1;
+    color: #efefef;
+}
+
+.sec-burger {
+    height: 500px;
+    padding: 20px 0;
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+}
+
+.image > img {
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.ingr, .instr {
+    padding: 20px;
+}
+
+.ingr > h4,
+.instr > h4 {
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+.ingr > ul, .instr > ol {
+    list-style-position: inside;
+    font-size: 1.5em;
+}
+
+.ingr li, .instr li {
+    padding-bottom: 10px;
+}
+
+footer {
+    height: 148px;
+    background-image: linear-gradient(to bottom, #d299c2 0%, #fef9d7 100%);
+    padding-left: 30px;
+}
+
+footer > h4 {
+    font-size: 1.1em;
+    padding-top: 20px;
+}
+
+footer > p {
+    padding: 10px 0;
+}
+
+footer a {
+    color: black;
+    transition: .2s;
+}
+
+footer a:hover {
+    color: #ec4b3d;
+}

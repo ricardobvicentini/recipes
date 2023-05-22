@@ -65,133 +65,133 @@
         transition: .2s;
     }
 
-    .nav-bar>a:hover {
+    .nav-bar > a:hover {
         scale: 1.1;
         color: white;
     }
 
-        .sec-burger,
-        .sec-toast,
-        .sec-pancake {
-            height: 450px;
-            padding: 20px 0;
-            margin: 0 40px;
-            display: flex;
-            position: relative;
-            justify-content: space-between;
-            align-items: center;
-        }
-    
-        .burger-text,
-        .pancake-text {
-            font-size: 1.3em;
-            text-align: justify;
-            display: flex;
-            position: absolute;
-            right: 10%;
-            width: 500px;
-            height: 400px;
-            padding: 10px;
-            border: 2px solid rgb(221, 220, 220);
-            border-radius: 10px;
-            box-shadow: var(--box-shadow);
-        }
-    
-        .toast-text {
-            font-size: 1.3em;
-            text-align: justify;
-            display: flex;
-            position: absolute;
-            left: 10%;
-            width: 500px;
-            height: 400px;
-            padding: 10px;
-            border: 2px solid rgb(221, 220, 220);
-            border-radius: 10px;
-            box-shadow: var(--box-shadow);
-        }
-    
-        .burger,
-        .pancake {
-            display: flex;
-            position: absolute;
-            left: 10%;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        .burger>h4,
-        .toast>h4,
-        .pancake>h4 {
-            font-size: 1.8em;
-            padding: 20px 0;
-        }
-    
-        .burger>img,
-        .toast>img,
-        .pancake>img {
-            width: 400px;
-            height: 300px;
-            border-radius: 10px;
-            box-shadow: var(--box-shadow);
-        }
-    
-        .burger>p,
-        .toast>p,
-        .pancake>p {
-            font-size: 1.5em;
-            text-decoration: underline;
-            padding: 20px 0;
-        }
-    
-        .burger>p>a,
-        .toast>p>a,
-        .pancake>p>a {
-            text-decoration: none;
-            color: #ec4b3d;
-        }
-    
-        .toast {
-            display: flex;
-            position: absolute;
-            right: 10%;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-    
-        .foot>p {
-            font-size: 1.5em;
-            margin: 0 50px;
-            padding: 20px;
-        }
-    
-        .foot>p>a {
-            text-decoration: none;
-            color: #ec4b3d;
-        }
-    
-        footer {
-            background-image: linear-gradient(to bottom, #feada6 0%, #f5efef 100%);
-            ;
-            padding-left: 30px;
-        }
-    
-        footer>h4 {
-            font-size: 1.1em;
-            padding-top: 20px;
-        }
-    
-        footer>p {
-            padding: 10px 0;
-        }
-    
-        footer a {
-            color: black;
-            transition: .2s;
-        }
-    
-        footer a:hover {
-            color: #ec4b3d;
-        }
+    .sec-burger,
+    .sec-toast,
+    .sec-pancake {
+        height: 450px;
+        padding: 20px 0;
+        margin: 0 40px;
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .burger-text,
+    .pancake-text {
+        font-size: 1.3em;
+        text-align: justify;
+        display: flex;
+        position: absolute;
+        right: 10%;
+        width: 500px;
+        height: 400px;
+        padding: 10px;
+        border: 2px solid rgb(221, 220, 220);
+        border-radius: 10px;
+        box-shadow: var(--box-shadow);
+    }
+
+    .toast-text {
+        font-size: 1.3em;
+        text-align: justify;
+        display: flex;
+        position: absolute;
+        left: 10%;
+        width: 500px;
+        height: 400px;
+        padding: 10px;
+        border: 2px solid rgb(221, 220, 220);
+        border-radius: 10px;
+        box-shadow: var(--box-shadow);
+    }
+
+    .burger,
+    .pancake {
+        display: flex;
+        position: absolute;
+        left: 10%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .burger>h4,
+    .toast>h4,
+    .pancake>h4 {
+        font-size: 1.8em;
+        padding: 20px 0;
+    }
+
+    .burger>img,
+    .toast>img,
+    .pancake>img {
+        width: 400px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: var(--box-shadow);
+    }
+
+    .burger>p,
+    .toast>p,
+    .pancake>p {
+        font-size: 1.5em;
+        text-decoration: underline;
+        padding: 20px 0;
+    }
+
+    .burger>p>a,
+    .toast>p>a,
+    .pancake>p>a {
+        text-decoration: none;
+        color: #ec4b3d;
+    }
+
+    .toast {
+        display: flex;
+        position: absolute;
+        right: 10%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foot>p {
+        font-size: 1.5em;
+        margin: 0 50px;
+        padding: 20px;
+    }
+
+    .foot>p>a {
+        text-decoration: none;
+        color: #ec4b3d;
+    }
+
+    footer {
+        background-image: linear-gradient(to bottom, #feada6 0%, #f5efef 100%);
+        ;
+        padding-left: 30px;
+    }
+
+    footer>h4 {
+        font-size: 1.1em;
+        padding-top: 20px;
+    }
+
+    footer>p {
+        padding: 10px 0;
+    }
+
+    footer a {
+        color: black;
+        transition: .2s;
+    }
+
+    footer a:hover {
+        color: #ec4b3d;
+    }

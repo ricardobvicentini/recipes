@@ -6,20 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamburger</title>
     <link rel="shortcut icon" href="../images/favicon-burger.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/hamburger.css">
 </head>
 <body>
     <header>
-        <nav>
+        <h1 class="logo">Hamburger</h1>
+        <nav class="nav-bar">
             <a href="../index.html">Home</a>
+            <a href="../recipes.html">Recipes</a>
+            <a href="../contact.html">Contact</a>
         </nav>
-        <h1>Hamburger</h1>
     </header>
     <main>
-        <hr>
         <article>
-            <section>
-                <h4>Hamburger</h4>
-                <img src="../images/burger.jpg" alt="Image of a hamburger" width="300" height="200">
+            <section class="sec-burger">
+                <div class="image">
+                <img src="../images/burger.jpg" alt="Image of a hamburger">
+                </div>
+                <div class="ingr">
                 <h4>Ingredients</h4>
                 <ul>
                     <li>Buns</li>
@@ -30,6 +34,8 @@
                     <li>Lettuce</li>
                     <li>Sauce</li>
                 </ul>
+                </div>
+                <div class="instr">
                 <h4>Instructions</h4>
                 <ol>
                     <li>Cook patty</li>
@@ -41,13 +47,14 @@
                     <li>Put bacon</li>
                     <li>Put sauce</li>
                 </ol>
+                </div>
             </section>
         </article>
-        <hr>
     </main>
     <footer>
-        <h4>Recipes by Slaying the Dragon</h4>
-        <p><em>All rights reserved</em></p>
+        <h4>Recipes by <a href="https://www.youtube.com/@slayingthedragon" target="_blank" rel="external">Slaying the Dragon</a>
+        </h4>
+        <p><em>All rights reserved.</em></p>
     </footer>
 </body>
 </html>
