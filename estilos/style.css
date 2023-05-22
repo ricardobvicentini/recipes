@@ -93,14 +93,16 @@
     }
 
     .art-title {
-        background-image: linear-gradient(to top, #efefef 0%, #f5efef 5%, #feada6 50%, #f5efef 95%, #efefef 100%);
+        border-top: 2px solid rgb(185, 182, 182);
+        border-bottom: 2px solid rgb(185, 182, 182);
+        margin: 0 40px;
         padding: 20px;
-    
+        
     }
 
     .art-title > h3 {
         position: relative;
-        left: 10%;
+        left: 8%;
         width: fit-content;
         color: black;
         font-size: 2em;
@@ -108,15 +110,15 @@
     }
 
     .sec-burger {
-        border: 1px solid red;
         height: 450px;
         padding: 20px 0;
+        margin: 0 40px;
+        border-bottom: 2px solid rgb(185, 182, 182);
         display: flex;
         position: relative;
     }
 
     .burger {
-        border: 1px solid red;
         display: flex;
         position: absolute;
         left: 10%;
@@ -169,6 +171,74 @@
     }
 
     .burger > p > a {
+        text-decoration: none;
+        color: #ec4b3d;
+    }
+
+    .sec-toast {
+        height: 450px;
+        padding: 20px 0;
+        margin: 0 40px;
+        border-bottom: 2px solid rgb(185, 182, 182);
+        display: flex;
+        position: relative;
+    }
+
+    .toast {
+        display: flex;
+        position: absolute;
+        right: 10%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .toast > h4,
+    .toast > p {
+        padding: 10px 0;
+    }
+
+    .toast > h4 {
+        font-size: 1.7em;
+    }
+
+    .toast > img {
+        width: 400px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: var(--box-shadow);
+    }
+
+    .toast > p {
+        font-size: 1.3em;
+    }
+
+    .toast > p > a {
+        text-decoration: none;
+        color: #ec4b3d;
+    }
+
+    .toast > h4,
+    .toast > p {
+        padding: 10px 0;
+    }
+
+    .toast>h4 {
+        font-size: 1.7em;
+    }
+
+    .toast>img {
+        width: 400px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: var(--box-shadow);
+    }
+
+    .toast>p {
+        font-size: 1.3em;
+    }
+
+    .toast>p>a {
         text-decoration: none;
         color: #ec4b3d;
     }
