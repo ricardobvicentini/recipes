@@ -109,7 +109,7 @@
         font-weight: 600;
     }
 
-    .sec-burger {
+    .sec-burger, .sec-toast, .sec-pancake {
         height: 450px;
         padding: 20px 0;
         margin: 0 40px;
@@ -118,7 +118,7 @@
         position: relative;
     }
 
-    .burger {
+    .burger, .pancake {
         display: flex;
         position: absolute;
         left: 10%;
@@ -127,61 +127,26 @@
         align-items: center;
     }
 
-    .burger > h4, .burger >p {
+    .burger > h4, .toast > h4, .pancake > h4 {
+        font-size: 1.7em;
         padding: 10px 0;
     }
 
-    .burger > h4 {
-        font-size: 1.7em;
-    }
-
-    .burger > img {
+    .burger > img, .toast > img, .pancake > img {
         width: 400px;
         height: 300px;
         border-radius: 10px;
         box-shadow: var(--box-shadow);
     }
 
-    .burger > p {
+    .burger > p, .toast > p, .pancake > p {
         font-size: 1.3em;
-    }
-
-    .burger > p > a {
-        text-decoration: none;
-        color: #ec4b3d;
-    }
-
-    .burger > h4, .burger >p {
         padding: 10px 0;
     }
 
-    .burger > h4 {
-        font-size: 1.7em;
-    }
-
-    .burger > img {
-        width: 400px;
-        height: 300px;
-        border-radius: 10px;
-        box-shadow: var(--box-shadow);
-    }
-
-    .burger > p {
-        font-size: 1.3em;
-    }
-
-    .burger > p > a {
+    .burger > p > a, .toast > p > a, .pancake > p > a {
         text-decoration: none;
         color: #ec4b3d;
-    }
-
-    .sec-toast {
-        height: 450px;
-        padding: 20px 0;
-        margin: 0 40px;
-        border-bottom: 2px solid rgb(185, 182, 182);
-        display: flex;
-        position: relative;
     }
 
     .toast {
@@ -193,54 +158,8 @@
         align-items: center;
     }
 
-    .toast > h4,
-    .toast > p {
-        padding: 10px 0;
-    }
 
-    .toast > h4 {
-        font-size: 1.7em;
-    }
 
-    .toast > img {
-        width: 400px;
-        height: 300px;
-        border-radius: 10px;
-        box-shadow: var(--box-shadow);
-    }
 
-    .toast > p {
-        font-size: 1.3em;
-    }
-
-    .toast > p > a {
-        text-decoration: none;
-        color: #ec4b3d;
-    }
-
-    .toast > h4,
-    .toast > p {
-        padding: 10px 0;
-    }
-
-    .toast>h4 {
-        font-size: 1.7em;
-    }
-
-    .toast>img {
-        width: 400px;
-        height: 300px;
-        border-radius: 10px;
-        box-shadow: var(--box-shadow);
-    }
-
-    .toast>p {
-        font-size: 1.3em;
-    }
-
-    .toast>p>a {
-        text-decoration: none;
-        color: #ec4b3d;
-    }
 
     
