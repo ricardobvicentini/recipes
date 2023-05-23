@@ -71,13 +71,59 @@ header {
     color: #efefef;
 }
 
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
 
+legend {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-left: 20px;
+}
 
+.name, .email, .message {
+    font-size: 1.2em;
+    padding: 10px 10px 15px 10px;
+    display: flex;
+    justify-content: center;
+}
 
+.input, .textarea {
+    font-size: 1em;
+    border-radius: 5px;
+    padding: 0 10px;
+    background: transparent;
+    border: none;
+    box-shadow: inset 0px 0px 5px #888;
+}
 
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.submit {
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.301);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.submit:hover {
+    color:#efefef;
+    background-color: #ec4b3d;
+}
 
 footer {
-    height: 148px;
+    height: 140px;
     background-image: linear-gradient(to bottom, #feada6 0%, #f5efef 100%);
     padding-left: 30px;
 }
