@@ -135,6 +135,11 @@
         height: 300px;
         border-radius: 10px;
         box-shadow: var(--box-shadow);
+        transition: .3s;
+    }
+
+    .burger img:hover, .toast img:hover, .pancake img:hover {
+        transform: scale(1.1);
     }
 
     .burger>p,
