@@ -6,20 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frech Toast</title>
     <link rel="shortcut icon" href="../images/favicon-toast.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/toast.css">
 </head>
 <body>
     <header>
-        <nav>
+        <h1 class="logo">French Toast</h1>
+        <nav class="nav-bar">
             <a href="../index.html">Home</a>
+            <a href="../recipes.html">Recipes</a>
+            <a href="../contact.html">Contact</a>
         </nav>
-        <h1>French Toast</h1>
     </header>
     <main>
-        <hr>
         <article>
-            <section>
-                <h4>French Toast</h4>
-                <img src="../images/toast.jpg" alt="Image of a hamburger" width="300" height="200">
+            <section class="sec-toast">
+                <div class="image">
+                <img src="../images/toast.jpg" alt="Image of a hamburger">
+                </div>
+                <div class="ingr">
                 <h4>Ingredients</h4>
                 <ul>
                     <li>1 egg</li>
@@ -27,19 +31,23 @@
                     <li>1/2 tbsp of ground cinnamon</li>
                     <li>4 slices of hearty sandwich bread</li>
                 </ul>
+                </div>
+                <div class="instr">
                 <h4>Instructions</h4>
                 <ol>
                     <li>Whisk egg, vanilla and cinnamon in a shallow dish and stir in milk.</li>
                     <li>Dip the bread slices in the egg mixture.</li>
                     <li>Cook the bread slices on lightly greased griddle.</li>
                 </ol>
+                </div>
             </section>
         </article>
         <hr>
     </main>
     <footer>
-        <h4>Recipes by Slaying the Dragon</h4>
-        <p><em>All rights reserved</em></p>
+        <h4>Recipes by <a href="https://www.youtube.com/@slayingthedragon" target="_blank" rel="external">Slaying the Dragon</a>
+        </h4>
+        <p><em>All rights reserved.</em></p>
     </footer>
 </body>
 </html>

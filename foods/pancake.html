@@ -6,20 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pancake</title>
     <link rel="shortcut icon" href="../images/favicon-pancake.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/pancake.css">
 </head>
 <body>
     <header>
-        <nav>
+        <h1 class="logo">Pancake</h1>
+        <nav class="nav-bar">
             <a href="../index.html">Home</a>
+            <a href="../recipes.html">Recipes</a>
+            <a href="../contact.html">Contact</a>
         </nav>
-        <h1>Pancake</h1>
     </header>
     <main>
-        <hr>
         <article>
-            <section>
-                <h4>Pancake</h4>
-                <img src="../images/pancake.jpg" alt="Image of a hamburger" width="300" height="200">
+            <section class="sec-pancake">
+                <div class="image">
+                <img src="../images/pancake.jpg" alt="Image of a hamburger">
+                </div>
+                <div class="ingr">
                 <h4>Ingredients</h4>
                 <ul>
                     <li>100g plain flour</li>
@@ -28,6 +32,8 @@
                     <li>1 tbsp sunflower</li>
                     <li>Maple syrup</li>
                 </ul>
+                </div>
+                <div class="instr">
                 <h4>Instructions</h4>
                 <ol>
                     <li>Put 100g plain flour, 2 large eggs, 300ml milk and 1 tbsp sunflower into a bowl then whisk to a smooth batter.</li>
@@ -35,13 +41,15 @@
                     <li>Cook your pancakes for 1 min on each side until golden.</li>
                     <li>Serve it with maple syrup on it.</li>
                 </ol>
+                </div>
             </section>
         </article>
         <hr>
     </main>
     <footer>
-        <h4>Recipes by Slaying the Dragon</h4>
-        <p><em>All rights reserved</em></p>
+        <h4>Recipes by <a href="https://www.youtube.com/@slayingthedragon" target="_blank" rel="external">Slaying the Dragon</a>
+        </h4>
+        <p><em>All rights reserved.</em></p>
     </footer>
 </body>
 </html>

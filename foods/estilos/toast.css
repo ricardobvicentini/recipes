@@ -5,8 +5,8 @@
 :root {
     --main-bg-color: linear-gradient(to top, #feada6 0%, #f5efef 100%);
     --burger-bg-color: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
-    --toast-bg-color: background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
-    --pancake-bg-color: background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    --toast-bg-color: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    --pancake-bg-color: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
     --box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
         6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
         12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
@@ -29,7 +29,7 @@ body {
 }
 
 header {
-    background-image: var(--burger-bg-color);
+    background-image: var(--toast-bg-color);
     position: relative;
     top: 0;
     left: 0;
@@ -50,13 +50,13 @@ header {
     text-decoration: underline;
     text-shadow: var(--text-shadow);
 }
-    
+
 .nav-bar {
     display: flex;
     position: relative;
 }
 
-.nav-bar > a {
+.nav-bar>a {
     text-decoration: none;
     color: black;
     font-size: 1.5em;
@@ -71,12 +71,12 @@ header {
     color: #efefef;
 }
 
-.sec-burger {
+.sec-toast {
     height: 500px;
     padding: 20px 0;
     margin: 0 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .image {
@@ -84,48 +84,52 @@ header {
     align-items: center;
 }
 
-.image > img {
+.image>img {
     width: 500px;
     height: 400px;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
 }
 
-.ingr, .instr {
+.ingr,
+.instr {
+    width: 400px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
 }
 
-.ingr > h4,
-.instr > h4 {
+.ingr>h4,
+.instr>h4 {
     font-size: 2em;
     padding-bottom: 20px;
 }
 
-.ingr > ul, .instr > ol {
+.ingr>ul,
+.instr>ol {
     width: fit-content;
     list-style-position: inside;
     font-size: 1.5em;
 }
 
-.ingr li, .instr li {
+.ingr li,
+.instr li {
     padding-bottom: 10px;
 }
 
 footer {
     height: 148px;
-    background-image: linear-gradient(to bottom, #d299c2 0%, #fef9d7 100%);
+    background-image: linear-gradient(to bottom, #a8edea 0%, #fed6e3 100%);
     padding-left: 30px;
 }
 
-footer > h4 {
+footer>h4 {
     font-size: 1.1em;
     padding-top: 20px;
 }
 
-footer > p {
+footer>p {
     padding: 10px 0;
 }
 

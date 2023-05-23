@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="shortcut icon" href="images/favicon-home.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/contact.css">
 </head>
 <body>
     <header>
-        <h1>Contact</h1>
-        <nav>
+        <h1 class="logo">Contact</h1>
+        <nav class="nav-bar">
             <a href="./index.html">Home</a>
             <a href="./recipes.html">Recipes</a>
         </nav>
@@ -19,28 +20,29 @@
         <hr>
         <form action="" method="get" autocomplete="off">
             <fieldset>
-                <div>
+                <div class="name">
                     <label for="iname">Name: </label>
                     <input type="text" name="name" id="iname" required min="3" max="20" size="30">
                 </div>
 
-                <div>
+                <div class="email">
                     <label for="iemail">Email: </label>
                     <input type="email" name="email" id="iemail" required size="30">
                 </div>
 
-                <div>
+                <div class="message">
                     <label for="message">Message: </label>
                     <textarea name="message" id="message" cols="30" rows="10"></textarea>
                 </div>
             </fieldset>
-            <input type="submit" value="Submit">
+            <input class="btn" type="submit" value="Submit">
         </form>
         <hr>
     </main>
 </body>
 <footer>
-        <h4>Recipes by Slaying the Dragon</h4>
-        <p><em>All rights reserved</em></p>
-    </footer>  
+    <h4>Recipes by <a href="https://www.youtube.com/@slayingthedragon" target="_blank" rel="external">Slaying the
+            Dragon</a></h4>
+    <p><em>All rights reserved.</em></p>
+</footer>
 </html>
