@@ -69,7 +69,7 @@
         transition: .2s;
     }
 
-    .nav-bar>a:hover {
+    .nav-bar>a:hover, .nav-bar > a.active {
         scale: 1.1;
         color: #efefef;
     }

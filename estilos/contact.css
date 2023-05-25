@@ -66,7 +66,9 @@ header {
     transition: .2s;
 }
 
-.nav-bar>a:hover {
+
+
+.nav-bar>a:hover, .nav-bar > a.active {
     scale: 1.1;
     color: #efefef;
 }
@@ -82,6 +84,7 @@ legend {
     font-size: 1.5em;
     font-weight: 600;
     margin-left: 20px;
+    padding: 0 5px;
 }
 
 .name, .email, .message {
@@ -98,6 +101,7 @@ legend {
     background: transparent;
     border: none;
     box-shadow: inset 0px 0px 5px #888;
+    resize: none;
 }
 
 .btn {
@@ -123,7 +127,7 @@ legend {
 }
 
 footer {
-    height: 140px;
+    height: 90px;
     background-image: linear-gradient(to bottom, #feada6 0%, #f5efef 100%);
     padding-left: 30px;
 }
